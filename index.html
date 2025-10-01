@@ -1,47 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Neha's Trinket Box</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fdfaf6; color: #333; }
-    header { background: #d4a373; color: white; padding: 20px; text-align: center; }
-    header h1 { margin: 0; }
-    section { padding: 20px; text-align: center; }
-    .products { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
-    .product { background: white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-               padding: 15px; width: 200px; }
-    .product img { width: 100%; border-radius: 8px; }
-    .btn { display: inline-block; margin-top: 10px; padding: 10px 15px; background: #d4a373; color: white;
-           text-decoration: none; border-radius: 6px; font-weight: bold; }
-    footer { background: #333; color: white; text-align: center; padding: 15px; margin-top: 20px; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #fff8fb;
+    }
+    header {
+      background: #e75480;
+      color: white;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    h2 {
+      margin-top: 30px;
+      color: #333;
+    }
+    .products {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 20px;
+    }
+    .products img {
+      margin: 10px;
+      border-radius: 10px;
+      width: 200px;
+      height: auto;
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+    }
+    video {
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+    }
+    .whatsapp-btn {
+      display: inline-block;
+      margin: 20px;
+      padding: 12px 25px;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 30px;
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Neha's Trinket Box</h1>
-    <p>✨ Trendy Accessories Just for You ✨</p>
-  </header>
- 
-  <section>
-    <h2>Our Collection</h2>
-    <div class="products">
-      <div class="product">
-        <img src="https://via.placeholder.com/200x200.png?text=Earrings" alt="Earrings">
-        <h3>Elegant Earrings</h3>
-        <a class="btn" href="https://wa.me/917347281108?text=Hi%20Neha%2C%20I%20want%20to%20order%20Elegant%20Earrings">Order Now</a>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/200x200.png?text=Necklace" alt="Necklace">
-        <h3>Stylish Necklace</h3>
-        <a class="btn" href="https://wa.me/917347281108?text=Hi%20Neha%2C%20I%20want%20to%20order%20Stylish%20Necklace">Order Now</a>
-      </div>
-    </div>
-  </section>
- 
-  <footer>
-    <p>© 2025 Neha's Trinket Box | Follow us on Instagram @nehas_trinket_box</p>
-  </footer>
+
+  <header>💎 Neha's Trinket Box 💎</header>
+
+  <h2>✨ Earrings ✨</h2>
+  <div class="products">
+    <img src="C:\Users\AMAC\Desktop" alt="Earring">
+    <img src="C:\Users\AMAC\Downloads" alt="Earring">
+  </div>
+
+  <h2>naklace</h2>
+  <div class="products">
+    <img src="C:\Users\AMAC\Desktop" alt="naklace">
+    <img src="C:\Users\AMAC\Desktop" alt="naklace">
+  </div>
+
+  <h2>💫 Bracelets 💫</h2>
+  <div class="products">
+    <img src="bracelet1.jpg" alt="Bracelet">
+    <img src="bracelet2.jpg" alt="Bracelet">
+  </div>
+
+  <h2>🌸 Jhumke 🌸</h2>
+  <div class="products">
+    <img src="jhumka1.jpg" alt="Jhumka">
+    <img src="jhumka2.jpg" alt="Jhumka">
+  </div>
+
+  <h2>🎀 Hair Accessories 🎀</h2>
+  <div class="products">
+    <img src="hair1.jpg" alt="Hair Accessory">
+    <img src="hair2.jpg" alt="Hair Accessory">
+  </div>
+
+  <h2>🎥 Product Showcase</h2>
+  <video width="320" height="240" controls>
+    <source src="intro.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <br>
+  <a class="whatsapp-btn" href="https://wa.me/917347281108?text=Hello%20Neha!%20I%20want%20to%20order%20from%20your%20Trinket%20Box.">Chat on WhatsApp</a>
+
 </body>
 </html>
